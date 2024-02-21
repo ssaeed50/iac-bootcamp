@@ -14,3 +14,4 @@
     - name: Include k8s role
       ansible.builtin.include_role:
         name: k8s
+      tags: next
